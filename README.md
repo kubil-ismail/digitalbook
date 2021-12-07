@@ -1,2 +1,1 @@
-# digitalbook
-digitalbook preview
+# KPK_Digital_Flipbook

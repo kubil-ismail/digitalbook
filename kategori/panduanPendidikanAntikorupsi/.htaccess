@@ -1,0 +1,19 @@
+Options -Indexes
+Options -Multiviews
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^home?$ index.html
+RewriteRule ^kontak?$ kontak.html
+RewriteRule ^petunjuk?$ petunjuk.html
+
+RewriteRule ^PendidikanAntiKorupsi/Anak?$ anak.html
+RewriteRule ^DuniaUsaha?$ duniaUsaha.html
+RewriteRule ^PendidikanAntiKorupsi?$ pendidikanAntiKorupsi.html
+RewriteRule ^Politik?$ politik.html
+RewriteRule ^Umum?$ umum.html
+
+RewriteRule ^PendidikanDasarDanMenengah?$ dasarMenengah.html
+RewriteRule ^Pendidikantinggi?$ tinggi.html
